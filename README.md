@@ -1,3 +1,10 @@
+ Réalisé par :
+
+-  Anas ELmouflih
+
+-  Koffi Maxime GNADJRO
+
+
 Projet : Intranet/Cloud Privé + Annuaire
 Difficulté : ★☆☆☆☆ (Niveau 1)
 
@@ -33,12 +40,6 @@ Procédures de sauvegarde (optionnel)
 Catégorie	Outils
 Cloud Privé	NextCloud, OwnCloud, Cozy
 Annuaire	OpenLDAP, Active Directory
-👥 Équipe
-Réalisé par :
-
-Anas ELmouflih
-
-Koffi Maxime GNADJRO
 
 Formatage conseillé :
 
