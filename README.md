@@ -1,26 +1,49 @@
+Projet : Intranet/Cloud Privé + Annuaire
+Difficulté : ★☆☆☆☆ (Niveau 1)
+
+- Présentation
+Plateforme centralisée offrant des services internes :
+
+- Gestion de mail
+
+- Prise de notes
+
+- Agenda partagé
+
+- Gestion de fichiers
+
+- Annuaire utilisateurs (Active Directory/OpenLDAP)
+
+- Livrables
+- Cloud privé fonctionnel (installé manuellement)
+
+- Base de données isolée (si applicable)
+
+- Gestion des utilisateurs/groups via annuaire
+
+- Logs de connexion accessibles
+
+📄 Documentation :
+
+Création/suppression d’utilisateurs
+
+Procédures de sauvegarde (optionnel)
+
+🛠️ Technologies
+Catégorie	Outils
+Cloud Privé	NextCloud, OwnCloud, Cozy
+Annuaire	OpenLDAP, Active Directory
+👥 Équipe
 Réalisé par :
-- Anas ELmouflih
-- GNADJRO koffi Maxime
 
+Anas ELmouflih
 
+Koffi Maxime GNADJRO
 
+Formatage conseillé :
 
-6-  PROJET :   INTRANET/CLOUD PRIVÉ + ANNUAIRE (Di culté : 1) 
-Présentation
- Plateforme mettant à disposition de multiples services installé manuellement : gestion de mail, 
-prise de notes, agenda, gestion de fichiers, etc. 
-         • Qui propose des applications internes : 
-                    o Serveur mail, serveur web, gestion d’agenda 
-         • Gestion d’utilisateurs et de groupes avec l’annuaire 
-         • Interface « access management » (liens vers les applications internes)
- Livrable attendue
-        • Le Cloud Privé est fonctionnel intégré manuellement 
-        • La base de données (s’il y en a une) doit être sur un serveur isolé 
-        • Il existe une gestion des utilisateurs avec l’annuaire 
-        • Vue sur les logs de connexion des utilisateurs 
-        • Documentation et démonstration sur création/suppression d’un utilisateur 
-        • Optionnel : réfléchissez à ce qu’il serait nécessaire de sauvegarder et monitorer pour 
-           pérenniser la solution
- Idées Technos possibles (non exhaustif)
-        • Cloud privé : OwnCloud, NextCloud, Cozy 
-        • Annuaire : Windows Active Directory, OpenLDAP
+Utilisez des emojis pour une meilleure lisibilité.
+
+Les liens GitHub cliquables permettent de créditer facilement les contributeurs.
+
+Structurez les livrables sous forme de checklist .
