@@ -1,3 +1,9 @@
+Réalisé par :
+
+- Anas ELmouflih
+
+- Koffi Maxime GNADJRO
+
 6-  PROJET :   INTRANET/CLOUD PRIVÉ + ANNUAIRE (Di culté : 1) 
 * Présentation
  Plateforme mettant à disposition de multiples services installé manuellement : gestion de mail, prise de notes, agenda, gestion de fichiers, etc.
