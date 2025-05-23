@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestion des utilisateurs - CloudSecure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">CloudSecure</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="register.html">Inscription</a></li>
+          <li><a href="login.html">Connexion</a></li>
+          <li><a href="files.html">Gestion de fichiers</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="users.html" class="active">Utilisateurs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Gestion des utilisateurs</h1>
+    <p>Visualisez et gérez les comptes utilisateurs de la plateforme.</p>
+  </section>
+
+  <section class="users-section container">
+    <div class="users-tools">
+      <button class="btn-primary">Ajouter un utilisateur</button>
+    </div>
+
+    <div class="users-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Nom d'utilisateur</th>
+            <th>Email</th>
+            <th>Rôle</th>
+            <th>Statut</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>admin</td>
+            <td>admin@cloudsecure.com</td>
+            <td>Administrateur</td>
+            <td>Actif</td>
+            <td>
+              <a href="#" class="link">Modifier</a> |
+              <a href="#" class="link-danger">Supprimer</a>
+            </td>
+          </tr>
+          <tr>
+            <td>utilisateur1</td>
+            <td>user1@mail.com</td>
+            <td>Utilisateur</td>
+            <td>Inactif</td>
+            <td>
+              <a href="#" class="link">Activer</a> |
+              <a href="#" class="link-danger">Supprimer</a>
+            </td>
+          </tr>
+          <!-- Tu peux ajouter d'autres utilisateurs ici -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CloudSecure. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
