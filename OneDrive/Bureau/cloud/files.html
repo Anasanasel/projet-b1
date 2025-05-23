@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestion des fichiers - CloudSecure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">CloudSecure</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="register.html">Inscription</a></li>
+          <li><a href="login.html">Connexion</a></li>
+          <li><a href="files.html" class="active">Gestion de fichiers</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="users.html">Utilisateurs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Mes fichiers</h1>
+    <p>Gérez, téléversez, organisez et partagez vos fichiers en toute sécurité.</p>
+  </section>
+
+  <section class="file-manager container">
+    <div class="toolbar">
+      <button class="btn-primary">Téléverser un fichier</button>
+      <button class="btn-secondary">Créer un dossier</button>
+    </div>
+
+    <div class="file-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Taille</th>
+            <th>Date de modification</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="../static/icons/file.svg" alt="file" class="icon"> rapport.pdf</td>
+            <td>2.4 MB</td>
+            <td>15 mai 2025</td>
+            <td>
+              <a href="#" class="link">Télécharger</a> | 
+              <a href="#" class="link">Renommer</a> | 
+              <a href="#" class="link-danger">Supprimer</a>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="../static/icons/folder.svg" alt="folder" class="icon"> projets</td>
+            <td>-</td>
+            <td>14 mai 2025</td>
+            <td>
+              <a href="#" class="link">Ouvrir</a> | 
+              <a href="#" class="link">Renommer</a> | 
+              <a href="#" class="link-danger">Supprimer</a>
+            </td>
+          </tr>
+          <!-- Ajoute d'autres fichiers ici -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CloudSecure. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
