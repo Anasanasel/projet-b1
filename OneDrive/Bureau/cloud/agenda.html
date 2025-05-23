@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda - CloudSecure</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">CloudSecure</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="register.html">Inscription</a></li>
+          <li><a href="login.html">Connexion</a></li>
+          <li><a href="files.html">Gestion de fichiers</a></li>
+          <li><a href="agenda.html" class="active">Agenda</a></li>
+          <li><a href="users.html">Utilisateurs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Agenda personnel</h1>
+    <p>Planifiez vos événements, tâches et rappels facilement.</p>
+  </section>
+
+  <section class="agenda-section container">
+    <div class="agenda-tools">
+      <button class="btn-primary">Ajouter un événement</button>
+    </div>
+
+    <div class="agenda-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Événement</th>
+            <th>Date</th>
+            <th>Heure</th>
+            <th>Description</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Réunion projet</td>
+            <td>17 mai 2025</td>
+            <td>14:00</td>
+            <td>Présentation finale du projet cloud</td>
+            <td>
+              <a href="#" class="link">Modifier</a> |
+              <a href="#" class="link-danger">Supprimer</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Sauvegarde automatique</td>
+            <td>18 mai 2025</td>
+            <td>02:00</td>
+            <td>Sauvegarde serveur externe</td>
+            <td>
+              <a href="#" class="link">Modifier</a> |
+              <a href="#" class="link-danger">Supprimer</a>
+            </td>
+          </tr>
+          <!-- D'autres événements peuvent être ajoutés ici -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CloudSecure. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
